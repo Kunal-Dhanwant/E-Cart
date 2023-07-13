@@ -1,7 +1,7 @@
 package com.lcwd.electronic.store.dtos;
 import lombok.*;
 
-import jakarta.*;
+
 import jakarta.validation.constraints.NotBlank;
 
 import java.util.ArrayList;
