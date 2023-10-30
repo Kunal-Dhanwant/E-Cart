@@ -62,7 +62,7 @@ public class User implements UserDetails{
 	@OneToOne(mappedBy = "user",cascade = CascadeType.REMOVE)
 	private Cart cart;
 	 
-	  @OneToMany(mappedBy = "user",fetch = FetchType.LAZY,cascade = CascadeType.REMOVE)
+	    @OneToMany(mappedBy = "user",fetch = FetchType.LAZY,cascade = CascadeType.REMOVE)
 	    private List<Order> orders=new ArrayList<>();
 
 	  
